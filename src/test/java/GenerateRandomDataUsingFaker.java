@@ -29,6 +29,8 @@ public class GenerateRandomDataUsingFaker {
 		
 		Locale locale = Locale.FRENCH;
 		Faker faker = new Faker(locale);
+		
+		
 		String firstName = faker.name().firstName();
 		String nameWithMiddle = faker.name().nameWithMiddle();
 		String lastName = faker.name().lastName();
